@@ -1,0 +1,218 @@
+body {
+    background-color: #100609;
+    color: #F2E3BD;
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid #5B1B29;
+    box-sizing: border-box;
+}
+
+.akaza-hero {
+    background-image: url("akz.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 600px;
+    padding: 160px 20px;
+    border: 3px solid #8D2638;
+    margin-bottom: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.akaza-hero h1 {
+    color: #C92F43;
+    text-align: center;
+    letter-spacing: 8px;
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    margin: 15px 0;
+}
+
+.akaza-hero .hero-subtitle {
+    color: #F2E3BD;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+}
+
+.akaza-hero .small-title {
+    color: #E2C68B;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+    margin: 0;
+}
+
+h1 {
+    color: #C92F43;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 38px;
+}
+
+h2 {
+    color: #C6A66B;
+    border-bottom: 2px solid #8D2638;
+    padding-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.small-title {
+    color: #C6A66B;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 13px;
+}
+
+.intro {
+    color: #F2E3BD;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.card-box {
+    background-color: #1A0D14;
+    border: 2px solid #5B1B29;
+    padding: 20px;
+    margin: 25px 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+
+.card-title {
+    color: #C6A66B;
+    letter-spacing: 2px;
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.character-card {
+    background-color: #1A0D14;
+    border: 2px solid #5B1B29;
+    padding: 20px;
+    margin: 25px 0;
+    box-sizing: border-box;
+    overflow: auto;
+    line-height: 1.8;
+}
+
+.character-heading {
+    color: #D94A5C;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.character-image {
+    width: 170px;
+    height: 220px;
+    border: 3px solid #C6A66B;
+    background-color: #32151D;
+    object-fit: cover;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.manga-page {
+    background-color: #0D080B;
+    border: 3px solid #C6A66B;
+    padding: 25px;
+    margin: 35px 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+
+.battle-title {
+    color: #D94A5C;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.manga-chapter-tag {
+    color: #C92F43;
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+.manga-panel-img {
+    width: 100%;
+    max-height: 450px;
+    border: 2px solid #5B1B29;
+    margin: 15px 0;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+.manga-sfx {
+    color: #F04458;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+}
+
+.result {
+    color: #D9B875;
+    font-weight: bold;
+    border-left: 4px solid #C92F43;
+    padding: 10px;
+    background-color: #211116;
+    display: block;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.archive-link {
+    color: #D9B875;
+    background-color: #1A0D14;
+    border: 1px solid #8D2638;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.archive-link:hover {
+    color: #FFFFFF;
+    background-color: #5B1B29;
+}
+
+.nav-bar {
+    text-align: center;
+    margin: 40px 0;
+    word-spacing: 15px;
+}
+
+.ending {
+    color: #C92F43;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #8D2638;
+    margin: 30px 0;
+}
